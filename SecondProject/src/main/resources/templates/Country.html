@@ -575,27 +575,27 @@
         
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Description</label>
-            <input type="text" class="form-control" id="recipient-name" name="description">
+            <input type="text" class="form-control" id="recipient-name" name="description" required="[A-Za-z]"> <!-- required pattern="[A-Za-z]{3} -->
           </div>
           
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Capital</label>
-            <input type="text" class="form-control" id="recipient-name" name="capital">
+            <input type="text" class="form-control" id="recipient-name" name="capital" required="[A-Za-z]"><!-- required pattern="[A-Za-z]{3,5} -->
           </div>
           
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Code</label>
-            <input type="text" class="form-control" id="recipient-name" name="code">
+            <input type="number" class="form-control" id="recipient-name" name="code" required pattern={2,5}>
           </div>
           
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Continent</label>
-            <input type="text" class="form-control" id="recipient-name" name="continent">
+            <input type="text" class="form-control" id="recipient-name" name="continent" required>
           </div>
           
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Nationality</label>
-            <input type="text" class="form-control" id="recipient-name" name="nationality">
+            <input type="text" class="form-control" id="recipient-name" name="nationality" required>
           </div>
           
           <div class="form-group">
